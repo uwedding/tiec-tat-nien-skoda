@@ -248,7 +248,7 @@ function saveSignature(userId, userCard, scale) {
   const signatureData = exportCanvas.toDataURL("image/png");
 
   const GOOGLE_SCRIPT_URL_KY_TEN =
-    "https://script.google.com/macros/s/AKfycbzArWGux9A9-Taj2Ke-iGiSpsVRpi1TZYlx_cEJpreiCXF8FNIO5rBf95E4BN0ol7nK/exec";
+    "https://script.google.com/macros/s/AKfycbw8LEWmMhTZvh1a0WkKq--Txt0U_cDxx9Jsx8B2VgGDWFBSTyMWAGyjv2aF7LWpgm-tCg/exec";
 
   const data = {
     signature: signatureData,

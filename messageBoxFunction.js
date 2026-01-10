@@ -9,7 +9,6 @@ function Handle_MessageBox(
 ) {
   // URL để lấy dữ liệu từ Google Sheets
   const sheetIDLoiChuc = "1b6-Usym8QSS1Vcpxzyw5tNfxiucNVS_meLoPybNBrEQ";
-
   const gidLoiChuc = "941724063";
   const urlLoiChuc = `https://docs.google.com/spreadsheets/d/${sheetIDLoiChuc}/gviz/tq?tqx=out:json&gid=${gidLoiChuc}`;
 
